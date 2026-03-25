@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:8080', // Make sure this matches your Spring Boot port!
+    // 👇 UPDATED: Now pointing to your live Render backend!
+    baseURL: 'https://apisentinel-ai-apimonitor-backend.onrender.com', 
 });
 
 // INTERCEPTOR: This runs automatically before EVERY request
@@ -13,7 +14,7 @@ api.interceptors.request.use(
             config.headers.Authorization = `Bearer ${token}`;
         }
 
-        // 👇 NEW: Grab the Gemini Key and force it onto every request!
+        // Grab the Gemini Key and force it onto every request!
         const geminiKey = localStorage.getItem('geminiApiKey');
         if (geminiKey) {
             config.headers['X-Gemini-Key'] = geminiKey;
