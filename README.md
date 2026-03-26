@@ -1,16 +1,26 @@
-# React + Vite
+# 🛡️ API Sentinel - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+API Sentinel is a modern, responsive enterprise dashboard designed to monitor API health, track system uptime, and visualize system metrics. This repository contains the React.js frontend, featuring secure JWT-based authentication and real-time data fetching.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
+* **Framework:** React.js (Vite)
+* **Styling:** CSS3 / Modern UI Components
+* **Routing:** React Router
+* **Deployment:** Nginx on Linux VPS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Key Features
+* **Secure Authentication:** Stateless login and registration flows handling JWT tokens.
+* **Interactive Dashboard:** Real-time visualization of monitored APIs, system uptime, and estimated costs.
+* **Cross-Origin Security:** Fully configured to communicate securely with the Spring Boot backend via strict CORS policies.
+* **Optimized Production Build:** Packaged via Vite for lightning-fast loading on remote servers.
 
-## React Compiler
+## 🛠️ Getting Started (Local Development)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
+* Node.js (v16 or higher)
+* npm or yarn
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/yourusername/api-sentinel-frontend.git](https://github.com/yourusername/api-sentinel-frontend.git)
