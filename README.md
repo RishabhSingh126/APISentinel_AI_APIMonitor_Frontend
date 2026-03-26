@@ -22,9 +22,3 @@ API Sentinel is an enterprise-grade API monitoring and logging platform. This re
 ### Prerequisites
 * Node.js (v16+)
 * npm or yarn
-
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/yourusername/api-sentinel-frontend.git](https://github.com/yourusername/api-sentinel-frontend.git)
-   cd api-sentinel-frontend
